@@ -18,11 +18,11 @@ function init() {
     const key = event.key;
     console.log(event.key);
   if (key === codes[index]) {
-      alert("You cheated!")
+      
     index++;
   }
       if (index ===codes.length) {
-
+           alert('Congrats, you clever cheat!')
           index = 0;
    }
 
